@@ -1,0 +1,4 @@
+php backup.php --courseshortname=431204-nbetancourt-b --destination=/backup/bkmigrar/
+php backup.php --courseshortname=121203-gmaparicio-b --destination=/backup/bkmigrar/
+php backup.php --courseshortname=211277-jotero-b --destination=/backup/bkmigrar/
+php backup.php --courseshortname=431204-ctodd-b --destination=/backup/bkmigrar/

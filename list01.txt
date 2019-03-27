@@ -1,0 +1,3 @@
+php backup.php --courseshortname=431204-mvirgen-b --destination=/backup/bkmigrar/
+php backup.php --courseshortname=311258-dlenis-b --destination=/backup/bkmigrar/
+php backup.php --courseshortname=561288-cmartinezo-b --destination=/backup/bkmigrar/
