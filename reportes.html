@@ -7,40 +7,91 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <title>Reportes</title>
   </head>
   <body>
     <div class="container-fluid mt-2">
             <div class="row">
-                    <div class="col-3">
+                    <div class="col-3" style="font-size: 14px;">
                       <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                        <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Balance general</a>
-                        <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Comparativo oferta por modalidad</a>
-                        <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Comparativo oferta E-learning por facultad</a>
-                        <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Detalle oferta cursos E-learning</a>
-                        <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Comparativo oferta B-learning por facultad</a>
-                        <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Detalle oferta cursos B-learning</a>
-                        <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Cursos B-learning por facultad</a>
-                        <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Estudiantes B-learning por facultad</a>
-                        <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Cursos B-learning por departamento</a>
-                        <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Estudiantes B-learning por programa</a>
+                        <a class="nav-link active" id="v-pills-reporte1-tab" data-toggle="pill" href="#v-pills-reporte1" role="tab" aria-controls="v-pills-reporte1" aria-selected="true" style="font-size: 14px;">Balance general</a>
+                        <a class="nav-link" id="v-pills-reporte2-tab" data-toggle="pill" href="#v-pills-reporte2" role="tab" aria-controls="v-pills-reporte2" aria-selected="false">Comparativo oferta por modalidad</a>
+                        <a class="nav-link" id="v-pills-reporte3-tab" data-toggle="pill" href="#v-pills-reporte3" role="tab" aria-controls="v-pills-reporte3" aria-selected="false">Comparativo oferta E-learning por facultad</a>
+                        <a class="nav-link" id="v-pills-reporte4-tab" data-toggle="pill" href="#v-pills-reporte4" role="tab" aria-controls="v-pills-reporte4" aria-selected="false">Detalle oferta cursos E-learning</a>
+                        <a class="nav-link" id="v-pills-reporte5-tab" data-toggle="pill" href="#v-pills-reporte5" role="tab" aria-controls="v-pills-reporte5" aria-selected="false">Comparativo oferta B-learning por facultad</a>
+                        <a class="nav-link" id="v-pills-reporte6-tab" data-toggle="pill" href="#v-pills-reporte6" role="tab" aria-controls="v-pills-reporte6" aria-selected="false">Detalle oferta cursos B-learning</a>
+                        <a class="nav-link" id="v-pills-reporte7-tab" data-toggle="pill" href="#v-pills-reporte7" role="tab" aria-controls="v-pills-reporte7" aria-selected="false">Cursos B-learning por facultad</a>
+                        <a class="nav-link" id="v-pills-reporte8-tab" data-toggle="pill" href="#v-pills-reporte8" role="tab" aria-controls="v-pills-reporte8" aria-selected="false">Estudiantes B-learning por facultad</a>
+                        <a class="nav-link" id="v-pills-reporte9-tab" data-toggle="pill" href="#v-pills-reporte9" role="tab" aria-controls="v-pills-reporte9" aria-selected="false">Cursos B-learning por departamento</a>
+                        <a class="nav-link" id="v-pills-reporte10-tab" data-toggle="pill" href="#v-pills-reporte10" role="tab" aria-controls="v-pills-reporte10" aria-selected="false">Estudiantes B-learning por programa</a>
                       </div>
                     </div>
                     <div class="col-9">
-                        <div class="alert alert-primary" role="alert">
-                            A simple primary alert—check it out!
+                        <div class="alert alert-primary" style="font-family: 'Oswald', sans-serif;" role="alert">
+                            Reportes de campus
                         </div>
-                        <canvas>
-
-                        
+                      
                         <div class="tab-content" id="v-pills-tabContent">
-                            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">Home</div>
-                            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-                                </canvas id="testCanvas" width="550" height="450">
+                            <div class="tab-pane fade show active" id="v-pills-reporte1" role="tabpanel" aria-labelledby="v-pills-reporte1-tab">
+                                <div id="myChart"></div>
                             </div>
-                            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
-                            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+                            <div class="tab-pane fade" id="v-pills-reporte2" role="tabpanel" aria-labelledby="v-pills-reporte2-tab">
+                                <canvas id="canvas" width="800" height="600"></canvas>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-reporte3" role="tabpanel" aria-labelledby="v-pills-reporte3-tab">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">First</th>
+                                        <th scope="col">Last</th>
+                                        <th scope="col">Handle</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                        <th scope="row">1</th>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                        </tr>
+                                        <tr>
+                                        <th scope="row">2</th>
+                                        <td>Jacob</td>
+                                        <td>Thornton</td>
+                                        <td>@fat</td>
+                                        </tr>
+                                        <tr>
+                                        <th scope="row">3</th>
+                                        <td>Larry</td>
+                                        <td>the Bird</td>
+                                        <td>@twitter</td>
+                                        </tr>
+                                    </tbody>
+                                </table>  
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-reporte4" role="tabpanel" aria-labelledby="v-pills-reporte4-tab">
+                                <canvas id="myChart2" width="400" height="400"></canvas>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-reporte5" role="tabpanel" aria-labelledby="v-pills-reporte5-tab">
+                                here and!
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-reporte6" role="tabpanel" aria-labelledby="v-pills-reporte6-tab">
+                                here and!
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-reporte7" role="tabpanel" aria-labelledby="v-pills-reporte7-tab">
+                                here and!
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-reporte8" role="tabpanel" aria-labelledby="v-pills-reporte8-tab">
+                                here and!
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-reporte9" role="tabpanel" aria-labelledby="v-pills-reporte9-tab">
+                                here and!
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-reporte10" role="tabpanel" aria-labelledby="v-pills-reporte10-tab">
+                                here and!
+                            </div>
                         </div>
                     </div>
                   </div>
@@ -52,45 +103,135 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.zingchart.com/zingchart.min.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="./canvasChart.js" type="text/javascript"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var dataDef = { title: "US Population Chart",
+                            xLabel: 'Year', 
+                            yLabel: 'Population (millions)',
+                            labelFont: '19pt Arial', 
+                            dataPointFont: '10pt Arial',
+                            renderTypes: [CanvasChart.renderType.lines, CanvasChart.renderType.points],
+                            dataPoints: [{ x: '1790', y: 3.9 }, 
+                                         { x: '1810', y: 7.2 }, 
+                                         { x: '1830', y: 12.8 }, 
+                                         { x: '1850', y: 23.1 },
+                                         { x: '1870', y: 36.5 },
+                                         { x: '1890', y: 62.9 }, 
+                                         { x: '1910', y: 92.2 },
+                                         { x: '1930', y: 123.2 },
+                                         { x: '1950', y: 151.3 }, 
+                                         { x: '1970', y: 203.2 },
+                                         { x: '1990', y: 248.7 }, 
+                                         { x: '2010', y: 308.7}]
+                           };
+            CanvasChart.render('canvas', dataDef);
+        });
+
+    </script>
+    <script type="text/javascript">
+        var myChart = {
+            "type": "bar",
+            "title": {
+            "text": "Change me please!"
+            },
+            "plot": {
+            "value-box": {
+                "text": "%v"
+            },
+            "tooltip": {
+                "text": "%v"
+            }
+            },
+            "legend": {
+            "toggle-action": "hide",
+            "header": {
+                "text": "Legend Header"
+            },
+            "item": {
+                "cursor": "pointer"
+            },
+            "draggable": true,
+            "drag-handler": "icon"
+            },
+            "scale-x": {
+            "values": [
+                "Mon",
+                "Wed",
+                "Fri"
+            ]
+            },
+            "series": [
+            {
+                "values": [
+                3,
+                6,
+                9
+                ],
+                "text": "apples"
+            },
+            {
+                "values": [
+                1,
+                4,
+                3
+                ],
+                "text": "oranges"
+            }
+            ]
+        };
+        zingchart.render({
+            id: "myChart",
+            data: myChart,
+            height: "480",
+            width: "100%"
+        });
+    </script>
+
     <script>
-        var canvas = document.getElementById( "testCanvas" );
-        var context = canvas.getContext( "2d" );
-        // declare graph start and end
-        var GRAPH_TOP = 25;
-        var GRAPH_BOTTOM = 375;
-        var GRAPH_LEFT = 25;
-        var GRAPH_RIGHT = 475;
-        var GRAPH_HEIGHT = 350;
-        var GRAPH_WIDTH = 450;
-        // clear canvas (if another graph was previously drawn)  
-        context.clearRect( 0, 0, 500, 400 );
-        // draw X and Y axis  
-        context.beginPath();
-        context.moveTo( GRAPH_LEFT, GRAPH_BOTTOM );
-        context.lineTo( GRAPH_RIGHT, GRAPH_BOTTOM );
-        context.lineTo( GRAPH_RIGHT, GRAPH_TOP );
-        context.stroke();
-        // draw reference line at the top of the graph  
-        context.beginPath();
-        // set light grey color for reference lines  context.strokeStyle = "#BBB";
-        context.moveTo( GRAPH_LEFT, GRAPH_TOP );
-        context.lineTo( GRAPH_RIGHT, GRAPH_TOP );
-        context.stroke();
-        // draw reference line 3/4 up from the bottom of the graph  
-        context.beginPath();
-        context.moveTo( GRAPH_LEFT, ( GRAPH_HEIGHT ) / 4 * 3 + GRAPH_TOP );
-        context.lineTo( GRAPH_RIGHT, ( GRAPH_HEIGHT ) / 4 * 3 + GRAPH_TOP );
-        context.stroke();
-        // draw reference line 1/2 way up the graph
-        context.beginPath();
-        context.moveTo( GRAPH_LEFT, ( GRAPH_HEIGHT ) / 2 + GRAPH_TOP );
-        context.lineTo( GRAPH_RIGHT, ( GRAPH_HEIGHT ) / 2 + GRAPH_TOP );
-        context.stroke();     
-        // draw reference line 1/4 up from the bottom of the graph
-        context.beginPath();
-        context.moveTo( GRAPH_LEFT, ( GRAPH_HEIGHT ) / 4 + GRAPH_TOP );
-        context.lineTo( GRAPH_RIGHT, ( GRAPH_HEIGHT ) / 4 + GRAPH_TOP );
-        context.stroke();
+        var ctx = document.getElementById('myChart2');
+        var myChart2 = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+                datasets: [{
+                    label: '# of Votes',
+                    data: [12, 19, 3, 5, 2, 3],
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.2)',
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(255, 206, 86, 0.2)',
+                        'rgba(75, 192, 192, 0.2)',
+                        'rgba(153, 102, 255, 0.2)',
+                        'rgba(255, 159, 64, 0.2)'
+                    ],
+                    borderColor: [
+                        'rgba(255, 99, 132, 1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)',
+                        'rgba(75, 192, 192, 1)',
+                        'rgba(153, 102, 255, 1)',
+                        'rgba(255, 159, 64, 1)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }]
+                }
+            }
+        });
     </script>
 </body>
 </html>
